@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Sellers 2.0 Header</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .box1 {
+            background-image: url("assets/sec1-bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 5rem;
+        }
+        .box2 {
+            background-image: url("assets/Line.png") !important;
+            background-size: contain;
+            background-repeat: repeat;
+            background-position: center;
+        }
+        .box4 {
+            background-image: url("assets/sec3.png") !important;
+            background-size: cover;
+            background-repeat: repeat;
+            background-position: center;
+        }
+        .box5 {
+            background-image: url("./assets/lastsec.png") !important;
+            background-size: cover;
+            background-repeat: repeat;
+            background-position: center;
+        }
+        .strip-section {
+            transform: rotate(2deg);
+            margin-bottom: 1rem;
+        }
+        .card1 {
+            background-image: url("assets/Line.png") !important;
+            background-size: cover;
+        }
+        header nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin: 0 1rem;
+        }
+        @media screen and (max-width:768px) {
+            header nav ul li {
+                display: block;
+                margin: 1rem 0rem;
+            }
+            nav {
+                background-color: black;
+                height: 100vh;
+                z-index: 999999999;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-[#100f1f] to-[#1a1a2e] px-6 py-3 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="./assets/logo.png" alt="Logo"
+                    class="w-[180px] sm:w-[220px] md:w-[331px] h-[60px] md:h-[80px] object-contain" />
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none" aria-label="Toggle Menu">
+                    <svg id="open-icon" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hidden" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav id="nav-links" class="hidden absolute top-[4.5rem] left-0 w-full bg-gradient-to-r from-[#100f1f] to-[#1a1a2e] px-6 py-4 flex-col items-start space-y-4 
+             md:space-y-0 md:flex md:flex-row md:space-x-6 md:static md:w-auto md:bg-transparent md:py-0 md:px-0">
+                <ul class="flex flex-col md:flex-row gap-4 md:gap-6">
+                    <li><a href="#" class="text-sm font-semibold text-white hover:text-[#6E38FD] transition">HOME</a>
+                    </li>
+                    <li><a href="#" class="text-sm font-semibold text-white hover:text-[#6E38FD] transition">SWIPE &
+                            TOOLS</a></li>
+                    <li><a href="#" class="text-sm font-semibold text-white hover:text-[#6E38FD] transition">JV PAGE</a>
+                    </li>
+                    <li><a href="#" class="text-sm font-semibold text-white hover:text-[#6E38FD] transition">PRODUCT
+                            DEMO</a></li>
+                    <li><a href="#" class="text-sm font-semibold text-white hover:text-[#6E38FD] transition">BONUS
+                            PAGE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="box1">
+        <section class="text-white overflow-hidden relative">
+
+            <!-- Background Grid Texture -->
+            <div
+                class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10 pointer-events-none z-0">
+            </div>
+
+            <!-- Main Content -->
+            <div class="relative z-10 max-w-5xl mx-auto px-4 py-20 text-center space-y-6">
+
+                <!-- Glowing CTA Box -->
+                <div
+                    class="inline-block bg-[#1d1b2e] text-sm px-6 py-2 rounded-full border border-gray-700 shadow-[0_0_20px_rgba(150,100,255,0.5)] transition-all duration-300">
+                    Could This AI App Be Your $2,000/Month Marketing Assistant?
+                </div>
+
+                <!-- Headline -->
+                <h1 class="text-2xl md:text-4xl font-semibold leading-snug md:leading-tight">
+                    <span class="text-[#6e38fd] font-bold">LIVE WORKSHOP:</span> How I Created a Complete Viral
+                    Marketing Campaign in 11 Minutes While Making Coffee (That Now Runs on Complete Autopilot)
+                </h1>
+            </div>
+
+            <!-- Purple Strip Banner -->
+            <div class="bg-[#5f22d9] py-4 text-white text-center text-lg strip-section">
+                Win a FREE Copy of AISellers + $150 in Credits & More!
+            </div>
+        </section>
+
+        <!-- MacBook Image Section -->
+        <div class="bg-[#150136] flex justify-center pt-0 pb-2">
+            <div>
+                <img src="./assets/Laptop-Screen-mockup 1.png" alt="Laptop screen mockup" class="max-w-full h-auto"
+                    loading="lazy" decoding="async" style="image-rendering: auto;" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="max-w-6xl mx-auto py-10 box2 text-white">
+        <!-- Header Text -->
+        <h2 class="text-3xl md:text-4xl font-extrabold text-center leading-snug mb-10">
+            Here’s A Glimpse Of What You’ll <br class="hidden md:block" />
+            Discover During The Live Workshop:
+        </h2>
+
+        <!-- Content Grid -->
+        <div class="flex flex-col lg:flex-row justify-between gap-10 items-start">
+            <!-- Text with icons -->
+            <div class="flex-1 space-y-6 text-lg leading-relaxed">
+                <div class="flex items-start gap-3">
+                    <span class="text-green-400 text-xl mt-1" aria-hidden="true">✔</span>
+                    <p>
+                        How to create your first
+                        <strong>profit-generating AI marketing campaign</strong> in under 15 minutes (even if you're
+                        completely non-technical)
+                    </p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-green-400 text-xl mt-1" aria-hidden="true">✔</span>
+                    <p>
+                        The “5-Minute Method” for
+                        <strong>turning any product or service</strong> into a complete marketing system that generates
+                        leads while you sleep
+                    </p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-green-400 text-xl mt-1" aria-hidden="true">✔</span>
+                    <p>
+                        Why most businesses <strong>waste 80% of their marketing budget</strong>
+                        (and how AISellers eliminates this waste completely)
+                    </p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-green-400 text-xl mt-1" aria-hidden="true">✔</span>
+                    <p>
+                        The exact process for <strong>landing $1,500–2,500/month retainer clients</strong> using nothing
+                        but AISellers demos
+                    </p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-purple-500 text-xl mt-1" aria-hidden="true">✔</span>
+                    <p>
+                        Plus, a chance to <strong>win a free copy of AISellers + $150 in credits</strong> and exclusive
+                        AI launch bonuses!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Image Stack -->
+            <div class="flex-1 flex justify-center">
+                <img src="./assets/user-img.png" alt="AISellers user preview"
+                    class="rounded-xl shadow-lg w-full max-w-sm h-auto object-contain" />
+            </div>
+        </div>
+
+        <!-- Signup Box -->
+        <div class="bg-[#1c1c2e] rounded-xl mt-14 max-w-2xl mx-auto shadow-lg">
+            <div class="lg:flex block items-end mb-6">
+                <div>
+                    <img src="./assets/mess-box.png" alt="Message box illustration" class="mr-4 w-full max-w-[120px]" />
+                </div>
+                <div class="p-6 w-full">
+                    <p class="text-lg font-semibold mb-4">
+                        Join Us For The LIVE Reveal Of <br />
+                        <span class="text-white font-bold">AISellers on [Date Here]</span> at 10:00 am EST & Win a FREE
+                        Copy + $150!
+                    </p>
+                    <form class="space-y-4" autocomplete="on">
+                        <!-- Name Input -->
+                        <label class="sr-only" for="username">Name</label>
+                        <div class="flex items-center gap-3 px-4 py-2 rounded-[30px] bg-[#2c2c3a]">
+                            <img src="./assets/use-icon.svg" class="w-5 h-5" alt="" />
+                            <input id="username" type="text" name="name" required placeholder="Enter Name"
+                                class="w-full bg-transparent text-white placeholder-gray-400 outline-none" />
+                        </div>
+
+                        <!-- Email Input -->
+                        <label class="sr-only" for="useremail">Email</label>
+                        <div class="flex items-center gap-3 px-4 py-2 rounded-[30px] bg-[#2c2c3a]">
+                            <img src="./assets/mess-icon.png" class="w-5 h-5" alt="" />
+                            <input id="useremail" type="email" name="email" required placeholder="Enter Email"
+                                class="w-full bg-transparent text-white placeholder-gray-400 outline-none" />
+                        </div>
+
+                        <button type="submit"
+                            class="py-3 bg-[#6E38FD] px-6 w-fit text-xs hover:bg-[#9333ea] text-white font-bold rounded-full transition-all duration-300">
+                            SIGN UP NOW FOR THE BIG REVEAL!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Persuasive Section -->
+        <div class="mt-20 max-w-3xl mx-auto text-center text-white px-4">
+            <p class="text-sm sm:text-base leading-relaxed mb-4">
+                If You Still Need More Information To Make Your Decision... Keep Reading. But Be Aware: If You Take The
+                Time To Read Every Word On This Page, All <strong>1,000 Seats May Be Gone.</strong>
+            </p>
+            <p class="text-sm sm:text-base leading-relaxed mb-4">
+                <strong>You Are One Of An Estimated 128,375 People</strong> This Week Reading This Message
+                (Based On The Estimated Subscriber Base Of Our Promotional Partners...And Not All Of Them Would Reveal
+                Their Numbers, So It’s Probably More).
+            </p>
+            <p class="text-sm sm:text-base leading-relaxed mb-8">
+                If Only <strong>0.05% Of You Decide To Join Us...</strong> We’ll Be Sold Out. The Best Bet
+                Is To Register Right
+            </p>
+
+            <button
+                class="bg-[#6E38FD] hover:bg-[#9333ea] transition-all duration-300 px-8 py-3 rounded-full text-white font-bold text-sm sm:text-base">
+                SIGN UP NOW FOR THE BIG REVEAL!
+            </button>
+        </div>
+    </div>
+
+    <!-- Case Study Section -->
+    <section class="bg-black text-white py-20 px-4 sm:px-8 box3">
+        <div class="text-center max-w-4xl mx-auto mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold leading-relaxed">
+                These Guys Have Made Millions Selling
+                <span class="text-[#6E38FD]">Ebooks, Videos, Content, Chatbots, And Other AI Products...</span><br />
+                With AISellers, You Can Do The Same <span class="italic">(Even Better)</span>
+            </h2>
+        </div>
+
+        <!-- Grid Cards -->
+        <div class="grid sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div class="bg-[#1f1f2f] rounded-xl p-6 space-y-4 shadow-md card1">
+                <p class="text-lg leading-relaxed font-bold">
+                    Alex Soltan Is Making <span class="text-[#6E38FD] font-semibold">$23,000 Per Month</span><br />
+                    Selling <span class="text-[#6E38FD]">AI-Generated Ebooks…</span>
+                </p>
+                <img src="./assets/card1.png" alt="Alex Soltan earning proof"
+                    class="rounded-lg w-full h-auto object-cover" />
+            </div>
+
+            <div class="bg-[#1f1f2f] rounded-xl p-6 space-y-4 shadow-md">
+                <p class="text-lg leading-relaxed font-bold">
+                    Another Guy Has Made <span class="text-[#6E38FD] font-bold">Over $1.63 Million</span> By Selling
+                    <span class="text-[#6E38FD] font-bold">AI-Generated Ebooks</span> On Amazon…
+                </p>
+                <img src="./assets/card2.png" alt="Ebook revenue screenshot"
+                    class="rounded-lg w-full h-auto object-cover" />
+            </div>
+
+            <div class="bg-[#1f1f2f] rounded-xl p-6 space-y-4 shadow-md">
+                <p class="text-lg leading-relaxed font-bold">
+                    This Guy Made An <span class="text-[#6E38FD] font-bold">AI Chatbot</span> That Makes Him
+                    <span class="text-[#6E38FD] font-bold">$350,000</span> Each Year…
+                </p>
+                <img src="./assets/card3.png" alt="AI chatbot income result"
+                    class="rounded-lg w-full h-auto object-cover" />
+            </div>
+
+            <div class="bg-[#1f1f2f] rounded-xl p-6 space-y-4 shadow-md">
+                <p class="text-lg leading-relaxed font-bold">
+                    Jason Wardrop Sells <span class="text-[#6E38FD] font-bold">AI Services Like Images, Videos, And
+                        Content</span> To Local
+                    Businesses And Makes <span class="text-[#6E38FD] font-bold">$19K/Month</span>
+                </p>
+                <img src="./assets/card4.png" alt="Jason Wardrop's monthly income"
+                    class="rounded-lg w-full h-auto object-cover" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section: Webinar Registration -->
+    <section class="bg-black text-white py-20 px-4 sm:px-8 box4">
+        <!-- Heading -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4 leading-snug">
+                Want To See How You Can Get<br class="hidden sm:block" />
+                Similar Results?
+            </h2>
+            <p class="text-gray-400 text-base sm:text-lg font-medium">
+                Register For The Webinar Below And Make Sure To Attend It Live <br />
+                <span class="text-gray-300">(BIG SURPRISES AWAITING)</span>
+            </p>
+        </div>
+
+        <!-- Card Form -->
+        <div class="bg-[#1c1c2e] rounded-xl mt-14 max-w-2xl mx-auto shadow-lg">
+            <div class="lg:flex block items-end mb-6">
+                <!-- Left Image -->
+                <div>
+                    <img src="./assets/mess-box.png" class="mr-4" alt="Webinar Box" />
+                </div>
+
+                <!-- Right Form -->
+                <div class="p-6">
+                    <p class="text-lg font-semibold mb-4">
+                        Join Us For The LIVE Reveal Of <br />
+                        <span class="text-white font-bold">AISellers on [Date Here]</span> at 10:00 am EST & Win a
+                        FREE Copy + $150!
+                    </p>
+
+                    <form class="space-y-4">
+                        <!-- Name Input -->
+                        <div class="flex items-center gap-3 px-4 py-2 rounded-[30px] bg-[#2c2c3a]">
+                            <img src="./assets/use-icon.svg" class="w-5 h-5" alt="User Icon" />
+                            <input type="text" placeholder="Enter Name"
+                                class="w-full bg-transparent text-white placeholder-gray-400 outline-none" />
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="flex items-center gap-3 px-4 py-2 rounded-[30px] bg-[#2c2c3a]">
+                            <img src="./assets/mess-icon.png" class="w-5 h-5" alt="Mail Icon" />
+                            <input type="email" placeholder="Enter Email"
+                                class="w-full bg-transparent text-white placeholder-gray-400 outline-none" />
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="py-3 bg-[#6E38FD] px-6 w-fit text-[12px] hover:bg-[#9333ea] text-white font-bold rounded-[40px] transition-all duration-300">
+                            SIGN UP NOW FOR THE BIG REVEAL!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Testimonials -->
+    <section class="box5">
+        <div class="max-w-5xl mx-auto lg:py-20 py-0 w-full lg:flex block gap-6">
+            <!-- Card 1 -->
+            <div class="bg-[#14121e] rounded-2xl p-6 shadow-lg lg:w-[517px] w-full mb-8 lg:mb-0">
+                <h3 class="font-semibold text-lg mb-2">
+                    Last month I made
+                    <span class="text-blue-400 underline">$3,740 in Commissions...</span>
+                </h3>
+                <p class="text-gray-300 text-sm mb-4">
+                    “I was struggling to make more than $400/month with affiliate marketing until I found AISELLERS 2.0.
+                    Within just 3 weeks of using the talking head videos and new landing page templates, my conversion
+                    rate jumped from 1.2% to 4.8%! Last month I made $3,740 in commissions working part-time. The
+                    flipbooks
+                    and automated email campaigns have been game changers for my business. Best investment I’ve made
+                    this
+                    year!”
+                </p>
+                <div class="flex items-center gap-3 mt-4">
+                    <img src="./assets/profileImg1.png" alt="James Keller"
+                        class="w-10 h-10 rounded-full border border-white" />
+                    <div>
+                        <p class="text-white text-sm font-semibold">James Keller</p>
+                        <p class="text-gray-400 text-xs">Affiliate Marketer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-[#14121e] rounded-2xl p-6 shadow-lg lg:w-[517px] w-full">
+                <h3 class="font-semibold text-lg mb-2">
+                    One restaurant owner saw a
+                    <span class="text-blue-400 underline">27% increase in bookings...</span>
+                </h3>
+                <p class="text-gray-300 text-sm mb-4">
+                    “AISELLERS 2.0 helped me land 3 new clients in my first month at $1,500 each! The clients were blown
+                    away by the quality of the AI videos and custom chatbots I created for them in literally minutes.
+                    One restaurant owner saw a 27% increase in bookings after we implemented the SMS campaign feature.
+                    I’m
+                    working half the hours and making triple what I did before. This tool is insane!”
+                </p>
+                <div class="flex items-center gap-3 mt-4">
+                    <img src="./assets/profileImg2.png" alt="Linda Reeves"
+                        class="w-10 h-10 rounded-full border border-white" />
+                    <div>
+                        <p class="text-white text-sm font-semibold">Linda Reeves</p>
+                        <p class="text-gray-400 text-xs">Local Marketing Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const navLinks = document.getElementById('nav-links');
+    const openIcon = document.getElementById('open-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('hidden');
+        openIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+    });
+</script>
+
+</html>
